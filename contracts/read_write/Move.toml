@@ -1,0 +1,10 @@
+[package]
+name = "read_write"
+version = "0.0.0"
+
+[dependencies]
+InitiaStdlib = { git = "https://github.com/initia-labs/movevm.git", subdir = "precompile/modules/initia_stdlib", rev = "main" }
+
+[addresses]
+std =  "0x1"
+your_address = "0x847afab9263ff886bf05f0faeecdc8570f7bbf5d"
