@@ -1,0 +1,23 @@
+{
+  "name": "scripts",
+  "version": "1.0.0",
+  "description": "Optia Liquid Staking Scripts",
+  "main": "dist/reward-claimer.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "ts-node src/reward-claimer.ts",
+    "dev": "ts-node src/reward-claimer.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^20.0.0",
+    "axios": "^1.6.0",
+    "cron": "^3.0.0",
+    "dotenv": "^16.0.0",
+    "ts-node": "^10.9.0",
+    "typescript": "^5.0.0"
+  }
+}

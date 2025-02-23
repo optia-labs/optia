@@ -9,6 +9,6 @@ MoveNursery = { local = "../movevm/precompile/modules/move_nursery" }
 
 [addresses]
 optia = "0x1"
-admin = "0x1"
+admin = "0x847afab9263ff886bf05f0faeecdc8570f7bbf5d"
 std = "0x1"
 initia_std = "0x1"
