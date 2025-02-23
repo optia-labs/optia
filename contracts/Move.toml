@@ -1,0 +1,14 @@
+[package]
+name = "optia_liquid_staking"
+version = "0.0.1"
+
+[dependencies]
+InitiaStdlib = { local = "../movevm/precompile/modules/initia_stdlib" }
+MoveStdlib = { local = "../movevm/precompile/modules/move_stdlib" }
+MoveNursery = { local = "../movevm/precompile/modules/move_nursery" }
+
+[addresses]
+optia = "0x1"
+admin = "0x1"
+std = "0x1"
+initia_std = "0x1"
